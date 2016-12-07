@@ -1,0 +1,46 @@
+material RedCircle
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 19 - Default.001
+        {
+            ambient 1.0 0.0 0.0 1.0
+            diffuse 0 0 1 0
+            emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            lighting on
+        }
+    }
+}
+
+material BlueCircle
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 19 - Default.001
+        {
+            ambient 0.0 0.0 1.0 1.0
+            diffuse 0 0 1 0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            lighting on
+        }
+    }
+}

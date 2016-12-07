@@ -1,0 +1,35 @@
+// Grey.001 genrated by blender2ogre 0.6.0
+
+material Grey.001 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Grey.001
+        {
+            ambient 0.6821616291999817 0.6692039370536804 0.678922176361084 1.0
+            diffuse 0.5457293114919857 0.5353631576204769 0.5431377491822502 1.0
+            specular 0.18852460384368896 0.18852460384368896 0.18852460384368896 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

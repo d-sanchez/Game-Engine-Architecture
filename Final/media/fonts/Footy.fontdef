@@ -1,0 +1,26 @@
+StarWars
+{
+	// Now this one I agree with ;)
+	// A Star Wars font :)
+	type 		truetype
+	source 		solo5.ttf
+	size 		16
+	resolution 	96
+}
+
+Fifa15Font
+{
+	// Fifa 15 font, don't sue me because this is for educational purposes
+	type 		truetype
+	source 		EASPORTS15.ttf
+	size 		96
+	resolution 	128
+}
+
+MyriadPro
+{
+        type            truetype
+        source          MYRIADPRO-BOLDCOND.ttf
+        size            96
+        resolution      96
+}

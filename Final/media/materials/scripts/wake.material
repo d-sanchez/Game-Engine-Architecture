@@ -1,0 +1,52 @@
+material Water/WakeSmall
+{
+   technique
+   {
+      pass
+      {
+         lighting off
+         scene_blend alpha_blend
+         depth_write off
+
+         texture_unit
+         {
+            texture wake.png
+         }
+      }
+   }
+}
+
+material Water/WakeMedium
+{
+   technique
+   {
+      pass
+      {
+         lighting off
+         scene_blend alpha_blend
+         depth_write off
+
+         texture_unit
+         {
+            texture wake.png
+         }
+      }
+   }
+}
+material Water/WakeLarge
+{
+   technique
+   {
+      pass
+      {
+         lighting off
+         scene_blend alpha_blend
+         depth_write off
+
+         texture_unit
+         {
+            texture gras_02.png
+         }
+      }
+   }
+}
